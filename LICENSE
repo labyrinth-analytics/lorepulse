@@ -3,13 +3,10 @@ Business Source License 1.1
 Parameters
 
 Licensor:             Labyrinth Analytics Consulting
-Licensed Work:        LorePulse v0.0.1
+Licensed Work:        LorePulse v0.1.0
                       The Licensed Work is (c) 2026 Labyrinth Analytics Consulting
-Additional Use Grant: You may make personal, non-commercial use of the Licensed Work,
-                      subject to the following limitation: you may store no more than
-                      50 sessions in total across all databases on your machine. Any
-                      use that exceeds this limit, or any commercial use, requires a
-                      paid license from the Licensor.
+Additional Use Grant: You may make personal, non-commercial use of the Licensed Work.
+                      Any commercial use requires a paid license from the Licensor.
 Change Date:          2030-05-04
 Change License:       Apache License, Version 2.0
 
@@ -51,7 +48,7 @@ of the Licensed Work. If you receive a copy of the Licensed Work in
 combination with other programs, as part of a larger work, or packaged by a
 third party, and you receive the Licensed Work under a different license from
 the one described in this License, you are required to comply with the license
-applicable to you.
+described in this License.
 
 Any use of the Licensed Work in violation of this License will automatically
 terminate your rights under this License for the current and all other

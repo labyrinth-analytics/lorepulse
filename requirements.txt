@@ -1,0 +1,2 @@
+# LorePulse v0.1.0 - Direct dependencies (pinned)
+mcp[cli]==1.26.0

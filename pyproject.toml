@@ -1,0 +1,46 @@
+[project]
+name = "lorepulse"
+version = "0.1.0"
+description = "dbt pipeline health metrics MCP server. Surface test pass rates and source freshness in any Claude session."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Labyrinth Analytics Consulting" }
+]
+keywords = ["mcp", "claude", "dbt", "data-pipeline", "data-quality", "ai-tools", "claude-plugin"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: Other/Proprietary License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries",
+]
+
+dependencies = [
+    "mcp[cli]==1.26.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.21",
+]
+
+[project.scripts]
+lorepulse = "lorepulse.server:main"
+
+[project.urls]
+Homepage = "https://github.com/labyrinth-analytics/lorepulse"
+Repository = "https://github.com/labyrinth-analytics/lorepulse"
+"Bug Tracker" = "https://github.com/labyrinth-analytics/lorepulse/issues"
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["lorepulse*"]

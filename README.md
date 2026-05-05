@@ -1,2 +1,2 @@
 # lorepulse
-MCP Tool Permission Ledger
+dbt Pipeline Health MCP Server

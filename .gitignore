@@ -1,0 +1,19 @@
+# Internal docs belong in docs/internal/lorepulse/ (private repo root)
+# This .gitignore exists as a safety net -- nothing sensitive should
+# be stored in this directory in the first place.
+CLAUDE.md
+*.xlsx
+*.env
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+*.db
+*.sqlite
+*.log
+.DS_Store
